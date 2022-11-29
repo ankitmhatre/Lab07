@@ -4,8 +4,10 @@ const port = 3000
 const fs = require('fs');
 const bodyParser = require('body-parser');
 var path = require('path');
+var cors = require('cors')
 
 
+app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -20,7 +22,13 @@ app.get('/', (req, res) => {
 app.get('/products', (req, res) => {
 
     
-    res.sendFile(path.join(__dirname, '/assets', 'products.json'));
+    fs.readFile('./assets/products.json', (err, json) => {
+        let obj = JSON.parse(json);
+
+        res.json(obj);
+    });
+
+   
 
 })
 
