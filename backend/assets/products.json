@@ -2,43 +2,42 @@
     "products": [
       {
         "id": 1,
-        "img": "https://picsum.photos/id/237/300/200",
+        "img": "image1",
         "title": "KitchenAid Pasta Roller Attachment",
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
+        "tagline": "A smooth roller gives pasta a consistent texture",
         "desc": "A smooth roller gives pasta a consistent texture every time, delivering a chewy consistency; no more squeezing and tearing dough, as with automatic pasta machines; enjoy delicious gourmet pasta meals at home like never before",
         "price": "35$"
       },
       {
         "id": 2,
-        "img": "https://picsum.photos/id/238/300/200",
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
+        "img": "image2",
+        "tagline": "Its pasta rollers and pasta cutter are made of high-quality",
         "title":
-          "Pasta Machine, ISILER 9 Adjustable Thickness",
+          "Pasta Machine, ISILER 9 Adjustable Thickness Settings Pasta Maker",
         "desc": " Its pasta rollers and pasta cutter are made of high-quality and non-toxic aluminum alloy, thus guaranteeing its safety and durability; innovatively designed with a sturdy table clamp, it will not move around when in use",
         "price": "36$"
       },
       {
         "id": 3,
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
-        "img": "https://picsum.photos/id/239/300/200",
+        "img": "image3",
+        "tagline": "Using its unique cutter, pasta sheets can be cut with one of 2 widths－2 or 6.6 mm",
         "title": "MARCATO Atlas 150 Pasta Machine, Made in Italy",
         "desc": "Using its unique cutter, pasta sheets can be cut with one of 2 widths－2 or 6.6 mm (0.07 in or 0.26 in); perfect for making spaghetti, fettuccini, lasagna, dumpling skins, and more; caters to all your pasta making needs",
         "price": "32$"
       },
       {
         "id": 4,
-        "img": "https://picsum.photos/id/240/300/200",
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
+        "img": "image4",
+        "tagline": "This pasta machine is not just easy to use",
         "title":
           "Pasta Attachment for KitchenAid Stand Mixer Included Pasta Sheet Roller",
         "desc": "This pasta machine is not just easy to use, it's easy on the eyes. The strong build and stainless steel finish adds the perfect amount of shiny chic to any cooking space.",
         "price": "82$"
       },
       {
-
         "id": 5,
-    "img": "https://picsum.photos/id/241/300/200",
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
+        "img": "image5",
+        "tagline": "Our noodle maker machine can create the dish of your dreams!",
         "title":
           "Noodle Maker - Pasta Maker - Pasta Roller Stainless Steel Dough Press Machine Manual",
         "desc": "Our noodle maker machine can create the dish of your dreams! Enjoy 7 different thickness options to craft your ideal meal.",
@@ -46,16 +45,16 @@
       },
       {
         "id": 6,
-        "img": "https://picsum.photos/id/242/300/200",
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
+        "img": "image6",
+        "tagline": "Using its unique cutter, pasta sheets can be cut with one of 2 widths－2 or 6.6 mm (0.07 in or 0.26 in)",
         "title": "EMERIL LAGASSE Pasta & Beyond, Automatic Pasta and Noodle Maker",
         "desc": "Using its unique cutter, pasta sheets can be cut with one of 2 widths－2 or 6.6 mm (0.07 in or 0.26 in); perfect for making spaghetti, fettuccini, lasagna, dumpling skins, and more; caters to all your pasta making needs",
         "price": "120$"
       },
       {
         "id": 7,
-        "img": "https://picsum.photos/id/243/300/200",
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
+        "img": "image7",
+        "tagline": "Great pasta attachment for kitchenaid stand mixer, simply attach and operate",
         "title":
           "Pasta Maker Machine - Heavy Duty Steel Construction - 150 Roller with Pasta Cutter -",
         "desc": "Great pasta attachment for kitchenaid stand mixer, simply attach and operate, a smooth pasta press roller gives pasta a consistent texture every time, delivering a chewy consistency. No more squeezing and tearing dough as the automatic pasta machine, enjoy delicious gourmet pasta meals at home like never before.(yet this attachment not belong to KitchenAid)",
@@ -63,8 +62,8 @@
       },
       {
         "id": 8,
-        "img": "https://picsum.photos/id/244/300/200",
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
+        "img": "image8",
+        "tagline": "Pasta attachment for kitchenaid stand mixer, Italy Design, Includes Pasta Roller",
         "title":
           "Imperia Pasta Maker Machine - Heavy Duty Steel Construction w Easy Lock Dial and Wood Grip Handle",
         "desc": "Pasta attachment for kitchenaid stand mixer, Italy Design, Includes Pasta Roller, Fettuccine Cutter and Spaghetti(angel hair pasta) Cutter, help you make authentic fresh pasta quickly and easily at home. Also perfect for a holiday gift to the one has KitchenAid Stand Mixer",
@@ -72,16 +71,19 @@
       },
       {
         "id": 9,
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
-        "img": "https://picsum.photos/id/249/300/200",
+        "img": "image9",
+
+        "tagline": "Gvode With Over 10 years professional design and manufacturing experience on attachments for kitchenaid stand mixer",
+
         "title": "2 in 1 Pasta Maker with Pasta Rack",
         "desc": "Gvode With Over 10 years professional design and manufacturing experience on attachments for kitchenaid stand mixer, this item is created to easily attach and use. The cleaning brush included and product high polishing surface all help cleaning easily. Comes with 1-Year Warranty, any quality issue, feel free to contact us",
         "price": "38$"
       },
       {
         "id": 10,
-        "tagline" : "A smooth roller gives pasta a consistent texture every time", 
-        "img": "https://picsum.photos/id/248/300/200",
+        "img": "image10",
+        "tagline": "Its pasta rollers and pasta cutter are made of high-quality and non-toxic aluminum alloy",
+
         "title":
           "YORSEEK Combo Gnocchi Pasta Board Garganelli Board and Gnocchi Stripper",
         "desc": "Its pasta rollers and pasta cutter are made of high-quality and non-toxic aluminum alloy, thus guaranteeing its safety and durability; innovatively designed with a sturdy table clamp, it will not move around when in use",

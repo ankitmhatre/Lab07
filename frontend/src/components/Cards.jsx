@@ -16,7 +16,10 @@ const Cards = (props) => {
       }}
         className="col-1 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
         <div className="card h-100 ">
-          <img src={props.img} className="card-img-top" alt="spagetti maker" />
+          <img  style={{
+            height :200
+          }}
+            src={"http://localhost:3000/static/" + props.img + ".jpg"} className="card-img-top" alt="spagetti maker" />
 
           <div style={{
         padding :'24px'
@@ -48,7 +51,7 @@ const Cards = (props) => {
               <Modal.Body>
                 <p>{props.desc}</p>
            
-              <img src={props.img} className="card-img-top" alt="spagetti maker" />
+              <img src={"http://localhost:3000/static/" + props.img + ".jpg"} className="card-img-top" alt="spagetti maker" />
               </Modal.Body>
               <Modal.Footer>
                 <Button onClick={handleClose} className="btn-success" variant="primary">

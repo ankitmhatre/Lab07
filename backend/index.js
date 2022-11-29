@@ -28,9 +28,13 @@ app.get('/products', (req, res) => {
         res.json(obj);
     });
 
-   
 
 })
+
+
+app.use('/static', express.static(path.join(__dirname, './assets/images')))
+
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
