@@ -35,6 +35,7 @@ const Home = () => {
           {products.length > 0 ? (
             products.map((item, index) => {
               return (
+                
                 <Cards
                 key={index}
                   img={item.img}

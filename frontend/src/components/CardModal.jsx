@@ -6,3 +6,5 @@ const CardModal = () => {
 };
 
 export default CardModal;
+
+
