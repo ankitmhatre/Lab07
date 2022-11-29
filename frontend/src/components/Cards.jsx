@@ -10,11 +10,28 @@ const Cards = (props) => {
 
   return (
     <>
-      <div className="col-1 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+      <div  style={{
+ marginBottom :'8px',
+ marginTop :'8px'
+      }}
+        className="col-1 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
         <div className="card h-100 ">
           <img src={props.img} className="card-img-top" alt="spagetti maker" />
-          <h5 className="card-title">{props.title}</h5>
-          <p className="card-text">{props.desc}</p>
+
+          <div style={{
+        padding :'24px'
+      }}
+      >
+          <h5 className="card-title">
+          <span style={{ 
+           lineClamp: 2,
+           fontWeight :'bold'
+            }}>{props.title}</span></h5>
+          <p className="card-text">
+          <span style={{fontWeight :'normal', letterSpacing :'-1px'}}>
+
+          {props.tagline}
+          </span></p>
           <p className="card-text">Price: {props.price}</p>
           {/* This should popup on new window inside modal when clicked */}
           <button className="btn btn-info" onClick={handleShow}>
@@ -30,15 +47,17 @@ const Cards = (props) => {
 
               <Modal.Body>
                 <p>{props.desc}</p>
+           
+              <img src={props.img} className="card-img-top" alt="spagetti maker" />
               </Modal.Body>
-
               <Modal.Footer>
-                <Button onClick={handleClose} variant="primary">
-                  Okay, Close
+                <Button onClick={handleClose} className="btn-success" variant="primary">
+                  Buy for {props.price}
                 </Button>
               </Modal.Footer>
             </Modal.Dialog>
           </Modal>
+        </div>
         </div>
       </div>
     </>

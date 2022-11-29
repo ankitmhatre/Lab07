@@ -41,6 +41,7 @@ const Home = () => {
                   img={item.img}
                   title={item.title}
                   desc={item.desc}
+                  tagline={item.tagline}
                   price={item.price}
                 />
               );
