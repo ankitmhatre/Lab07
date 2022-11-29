@@ -1,6 +1,7 @@
-import "./Home.css";
+import React from 'react'
 import Cards from "../components/Cards";
 import { useEffect, useState } from "react";
+
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -17,7 +18,9 @@ const Home = () => {
       .then((res) => {
         setProducts(res.products);
       })
-      .catch((err) => {});
+      .catch((err) => {
+        
+      });
   }
 
   useEffect(() => {
@@ -33,6 +36,7 @@ const Home = () => {
             products.map((item, index) => {
               return (
                 <Cards
+                key={index}
                   img={item.img}
                   title={item.title}
                   desc={item.desc}
